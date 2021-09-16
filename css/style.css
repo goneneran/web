@@ -31,6 +31,7 @@ a:focus {
 p {
   padding: 0;
   margin: 0 0 30px 0;
+  text-align: right;
 }
 
 h1,
@@ -223,6 +224,7 @@ h6 {
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
+  text-align: right;
 }
 
 #intro .intro-info h2 span {
@@ -271,7 +273,7 @@ h6 {
 .main-nav > ul > li {
   position: relative;
   white-space: nowrap;
-  float: left;
+  float: right;
 }
 
 .main-nav a {
@@ -502,6 +504,7 @@ h6 {
 #about {
   padding: 80px 0;
 }
+p {
 
 #about .about-content {
   padding-top: 40px;
@@ -511,6 +514,7 @@ h6 {
   color: #413e66;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  text-align: right;
 }
 
 #about .about-content h3 {
@@ -633,7 +637,7 @@ h6 {
   font-size: 14px;
   line-height: 28px;
   margin-bottom: 0;
-  text-align: left;
+  text-align: right;
 }
 
 /* Why Us Section
@@ -660,6 +664,7 @@ h6 {
   margin-left: 56px;
   color: #413e66;
   margin-bottom: 5px;
+  text-align: right;
 }
 
 #why-us .why-us-content .features p {
@@ -678,6 +683,7 @@ h6 {
   font-size: 48px;
   display: block;
   color: #555186;
+  text-align: right;
 }
 
 #why-us .counters p {
@@ -701,10 +707,12 @@ h6 {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
+  text-align: right;
 }
 
 #call-to-action .cta-text {
   color: #fff;
+  text-align: right;
 }
 
 #call-to-action .cta-btn {
