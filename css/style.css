@@ -31,7 +31,6 @@ a:focus {
 p {
   padding: 0;
   margin: 0 0 30px 0;
-  text-align: right;
 }
 
 h1,
@@ -127,7 +126,7 @@ h6 {
 
 #topbar {
   padding: 0 0 10px 0;
-  font-size: 20px;
+  font-size: 14px;
   transition: all 0.5s;
 }
 
@@ -213,9 +212,9 @@ h6 {
 
 #intro {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   position: relative;
-  background: #f5f8fd url("../img/top.jpg") center top no-repeat;
+  background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
   background-size: cover;
 }
 
@@ -224,7 +223,6 @@ h6 {
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
-  text-align: right;
 }
 
 #intro .intro-info h2 span {
@@ -273,7 +271,7 @@ h6 {
 .main-nav > ul > li {
   position: relative;
   white-space: nowrap;
-  float: right;
+  float: left;
 }
 
 .main-nav a {
@@ -282,7 +280,7 @@ h6 {
   color: #413e66;
   padding: 10px 15px;
   transition: 0.3s;
-  font-size: 22px;
+  font-size: 14px;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
@@ -513,7 +511,6 @@ h6 {
   color: #413e66;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  text-align: right;
 }
 
 #about .about-content h3 {
@@ -636,7 +633,7 @@ h6 {
   font-size: 14px;
   line-height: 28px;
   margin-bottom: 0;
-  text-align: right;
+  text-align: left;
 }
 
 /* Why Us Section
@@ -663,7 +660,6 @@ h6 {
   margin-left: 56px;
   color: #413e66;
   margin-bottom: 5px;
-  text-align: right;
 }
 
 #why-us .why-us-content .features p {
@@ -682,7 +678,6 @@ h6 {
   font-size: 48px;
   display: block;
   color: #555186;
-  text-align: right;
 }
 
 #why-us .counters p {
@@ -706,7 +701,6 @@ h6 {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
-  text-align: right;
 }
 
 #call-to-action .cta-text {
@@ -1474,7 +1468,7 @@ h6 {
 
 @media (min-width: 992px) {
   #intro .intro-info {
-    padding-top: 150px;
+    padding-top: 80px;
   }
 
   #testimonials .testimonial-item p {
